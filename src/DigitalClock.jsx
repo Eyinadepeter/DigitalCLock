@@ -14,6 +14,11 @@ useEffect(()=> {
     }
 }, [])
 
+useEffect( ()=>{
+    document.title = "DIgital Clock"
+},[])
+
+
 const formatTime =() =>{
 
     let hour = time.getHours();
